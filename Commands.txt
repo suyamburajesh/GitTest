@@ -1,7 +1,31 @@
+#git verion information:
+
+git -- version
+
+#git configration:
+
+git config --global user.name="username"
+
+git config --global user.email=emailid
+
+git config --list
+
+#Git basic commands
+
 git init
 git status
 git add .
 git commit -m commit name
 git log --
 git log --oneline
-git checkout commit name
+git checkout commitnumber filename 
+git reset HEAD filename
+git checkout -- filename
+
+#add data to repository:
+
+git remote add orgin <Url>
+
+git push -u orgin master
+
+git clone <url>
